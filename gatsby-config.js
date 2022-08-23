@@ -34,10 +34,6 @@ module.exports = {
             title: `Kontakt`,
             slug: `/kontakt`,
           },
-          {
-            title: `Datenschutz`,
-            slug: `/datenschutz`,
-          },
         ],
         externalLinks: [
           {
