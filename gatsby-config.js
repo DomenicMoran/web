@@ -23,17 +23,14 @@ module.exports = {
       options: {
         navigation: [
           {
+            title: `Startseite`,
+            slug: `/`,
+          },
+          {
             title: `Über mich`,
             slug: `/about`,
           },
-          {
-            title: `Impressum`,
-            slug: `/impressum`,
-          },
-          {
-            title: `Datenschutz`,
-            slug: `/datenschutz`,
-          },
+
         ],
         externalLinks: [
           {
