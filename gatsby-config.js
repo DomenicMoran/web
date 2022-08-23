@@ -39,7 +39,7 @@ module.exports = {
           },
           {
             name: `GitHub`,
-            url: `https://github.com/DomenicMoran/ToDoApp`,
+            url: `https://github.com/DomenicMoran/`,
           },
         ],
       },
