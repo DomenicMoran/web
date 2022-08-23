@@ -27,11 +27,11 @@ module.exports = {
             slug: `/about`,
           },
           {
-            title: ``,
+            title: `Impressum`,
             slug: `/impressum`,
           },
           {
-            title: ``,
+            title: `Datenschutz`,
             slug: `/datenschutz`,
           },
         ],
