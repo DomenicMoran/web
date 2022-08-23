@@ -7,14 +7,14 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-minimal-blog/gatsby-config.js
-    siteTitle: `Minimal Blog`,
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
-    siteHeadline: `Minimal Blog - Gatsby Theme from @lekoarts`,
+    siteTitle: `Domenic Moran`,
+    siteTitleAlt: `Domenic Moran - Software-Entwickler`,
+    siteHeadline: `omenic Moran - Software-Entwickler`,
     siteUrl: `https://minimal-blog.lekoarts.de`,
-    siteDescription: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and line highlighting.`,
-    siteLanguage: `en`,
+    siteDescription: `Hallo, ich bin Domenic, ein Software-Entwickler aus Berlin/Deutschland.`,
+    siteLanguage: `de`,
     siteImage: `/banner.jpg`,
-    author: `@lekoarts_de`,
+    author: `@Moran`,
   },
   plugins: [
     {
@@ -23,22 +23,30 @@ module.exports = {
       options: {
         navigation: [
           {
-            title: `Blog`,
-            slug: `/blog`,
+            title: `Über mich`,
+            slug: `/about`,
           },
           {
-            title: `About`,
-            slug: `/about`,
+            title: `Portfolio`,
+            slug: `/portfolio`,
+          },
+          {
+            title: `Kontakt`,
+            slug: `/kontakt`,
+          },
+          {
+            title: `Datenschutz`,
+            slug: `/datenschutz`,
           },
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            name: `LinkedIn`,
+            url: `https://www.linkedin.com/in/domenic-moran-a47750247/`,
           },
           {
-            name: `Homepage`,
-            url: `https://www.lekoarts.de?utm_source=minimal-blog&utm_medium=Starter`,
+            name: `GitHub`,
+            url: `https://github.com/DomenicMoran/ToDoApp`,
           },
         ],
       },
